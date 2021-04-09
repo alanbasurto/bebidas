@@ -15,7 +15,12 @@ header h1 {
 .card {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 2rem auto;
+}
+.card figure {
+  min-width: 40%;
+  text-align: center;
 }
 .card figure img {
   width: 20rem;
@@ -23,7 +28,8 @@ header h1 {
   max-width: 100%;
 }
 .card .info {
-  width: 40%;
+  min-width: 20%;
+  margin: 1rem 0;
 }
 .card .info h3 {
   font-size: 2rem;
@@ -31,6 +37,11 @@ header h1 {
 }
 .card .info span {
   font-size: 1.5rem;
+}
+.card .ingre {
+  min-width: 20%;
+  text-align: center;
+  margin: 2rem 0;
 }
 .card .ingre span {
   font-size: 1.5rem;

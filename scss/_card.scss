@@ -1,16 +1,21 @@
 .card{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 2rem auto;
     figure{
+        min-width: 40%;
+        text-align: center;
         img{
             width: 20rem;
             border-radius: 1rem;
             max-width: 100%;
+            
         }
     }
     .info{
-        width: 40%;
+        min-width: 20%;
+        margin: 1rem 0;
         h3{
             font-size: 2rem;
             margin: 1rem auto;
@@ -20,7 +25,11 @@
         }
     }
     .ingre{
+        min-width: 20%;
+        text-align: center;
+        margin: 2rem 0;
         span{
+            
             font-size: 1.5rem;
         }
         ol{
