@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+}
+.card figure img {
+  width: 20rem;
+  border-radius: 1rem;
+  max-width: 100%;
+}
+.card .info {
+  width: 40%;
+}
+.card .info h3 {
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+.card .info span {
+  font-size: 1.5rem;
+}
+.card .ingre span {
+  font-size: 1.5rem;
+}
+.card .ingre ol {
+  padding: 2rem 0;
+  list-style: none;
+}
+.card .ingre ol li {
+  margin: 0.5rem 0;
+}
+
+body {
+  background-color: #f7ebeb;
+}
+/*# sourceMappingURL=index.41e4b3cf.css.map */
